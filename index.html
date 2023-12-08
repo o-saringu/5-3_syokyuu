@@ -8,7 +8,9 @@
 <body>
 	<div class = "title">
 	<h1 class = "daimei">プログラム復習コンテンツ</h1>
+	<a href='https://o-saringu.github.io/mokuji/'>
 	<div class="home"></div>
+	</a>
 	</div>
 
 	<h1 class = "daimei2">第5章反応　STEP3-初級問題</h1>
@@ -22,7 +24,7 @@
 	<div class = "gamen">
 	<p class="midasi2">プログラム実行画面</p>
 	<div class = "video">
-	<video controls muted autoplay loop src="5syou_3_syokyuu_kekka.mp4"></video>
+	<video class="vid" controls muted autoplay loop src="5syou_3_syokyuu_kekka.mp4"></video>
 	</div>
 	</div>
 	</div>
@@ -68,9 +70,21 @@
 	<p>(3)line(x, 0, x, height);</p>
 	
 	<input type="button" id="btn" value="判定">
+
+	<input type="button"  id="btn2" onclick="location.href='https://o-saringu.github.io/5-3_tyuukyuu/'"value="次の問題へ">
 	
 	
 	</div>
+	
+	<p class="midasi3">解説欄</p>
+	<div class = "mondaibun">
+	<input type="checkbox" id="check2">
+	<label class="check2" for="check2">解説</label>
+	<div class = "kaisetu">
+	<p></p>
+	<p></p>
+	</div>
+		
 	<script src = "main.js"></script>	
 </body>
 
